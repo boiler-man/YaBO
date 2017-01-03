@@ -7,8 +7,13 @@ tools and absttractions.
 
 They represent slight modification of 
 Mike's Handy Backup and Backup Rotation Scripts,
-in which I've which generalize some functions and sets global 
-variables in a global script.
+I've which generalized some functions and set global 
+variables in a global script, as well as added an evolving
+loggin and mailing component.
+
+Credit for original work in using hardlinks for snapshotting goes here:
+
+http://www.mikerubel.org/computers/rsync_snapshots/
 
 Other scripts, as they prove useful, will be added
 to the framework.
