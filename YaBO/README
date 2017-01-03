@@ -1,0 +1,28 @@
+2016-17 Mack Allison: mallison AT brooks network services .COM
+                  -=  kamaji AT dial unix .COM =-
+
+This is a set of simple backup scripts. The provide great
+power and flexibility when combined with other unix-world
+tools and absttractions.
+
+They represent slight modification of 
+Mike's Handy Backup and Backup Rotation Scripts,
+in which I've which generalize some functions and sets global 
+variables in a global script.
+
+Other scripts, as they prove useful, will be added
+to the framework.
+
+This is intended as a personal exercise in learning
+how to write and modify good clean bash scripts,
+and to work in the field to automate the backups
+of some small sites into multiple onsite and offsite
+backup containers.
+
+NEED:
+
+increase reporting
+verify backup routines
+postfix configuration to send mail
+
+
