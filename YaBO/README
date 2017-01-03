@@ -22,7 +22,12 @@ backup containers.
 NEED:
 
 increase reporting
-verify backup routines
-postfix configuration to send mail
+present mail is dumb: this needs to collect exit values and log 
+information and mail the contents of a finished file
+presently, mails that the script completed after rsync finishes, 
+without regard to success or failure.
+
+verify backup routines (use md5sum for system images, 
+what method for large groups of files?)
 
 
