@@ -8,10 +8,10 @@
 # based on original work by Mike Rubel http://www.mikerubel.org/computers/rsync_snapshots/
 
 # source environment variables from top level
-. /opt/backaroo/bin/environment.sh
+source $YABO
 
 # make sure we're running as root
-if (( `$ID -u` != 0 )); then { $ECHO "Sorry, must be root.  Exiting..."; exit; } fi
+if (( `$ID -u` != 0 )); then { $ECHO "Sorry, must be root.  Exiting..." > $LOGFILE; exit; } fi
 
 # attempt to remount the RW mount point as RW; else abort
 $MOUNT -o remount,rw $MOUNT_DEVICE $SNAPSHOT_RW ;

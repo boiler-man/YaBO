@@ -41,7 +41,7 @@ SOURCEDIR=/etc;
 
 # ------------- log locations ------------------------------------------
 
-LOGFILE=$BASEDIR/log/backaroo.log
+LOGFILE=/tmp/yabo.log
 
 # ------------ mailer information --------------------------------------
 FROMADDR=backup_operator@telegraph.dialunix.com
